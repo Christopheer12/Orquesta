@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 // ======== Variables ========
@@ -15,11 +17,28 @@ $Color2: #FFFFFF;
 $Color3: #BEA155;
 $Color4: #5C4359;
 
+$colores:(
+instagram:#3f729b ,
+linkedin:#0e76a8 ,
+youtube:#c4302b,
+);
+
 body {
     font-family: $Letra;
     color: $Color2;
-    background-color: #BEA155
+    background-color: #000000
 }
+
+
+
+
+%hovers___Footer{
+    transition:1s ;
+    transform: scale(2,2);
+    z-index: 100; 
+}
+
+
 
 // ################# Encabezado #################
 
