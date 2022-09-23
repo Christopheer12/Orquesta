@@ -2,17 +2,15 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Signika";
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #BEA155;
 }
 
 .redesSociales {
   background-color: #FFFFFF;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
