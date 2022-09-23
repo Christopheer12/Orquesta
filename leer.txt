@@ -3,3 +3,7 @@ npm init
 npm i nodemon
 npm install -g sass
 npm i node-sass
+
+
+-----------------
+Npm run watch-scss sincronosar con sass
