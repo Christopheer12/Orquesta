@@ -1,0 +1,5 @@
+instalar
+npm init
+npm i nodemon
+npm install -g sass
+npm i node-sass
