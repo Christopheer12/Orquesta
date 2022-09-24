@@ -3,14 +3,157 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Signika";
   color: #FFFFFF;
-  background-color: #BEA155;
+  background-color: #000000;
+}
+
+.instagram :hover, .linkedin :hover, .youtube :hover, .botonWhatsApp img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+  z-index: 100;
 }
 
 .redesSociales {
   background-color: #FFFFFF;
-}/*# sourceMappingURL=style.css.map */
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 125px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logoCompletoH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1% 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logoCompletoH img {
+  height: 91px;
+}
+
+h1 {
+  font: normal 400 36px 'Signika', serif;
+  line-height: 44px;
+  text-align: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+nav ul a {
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 21.6px;
+  margin-right: 36px;
+}
+
+.contactoConmingo {
+  margin: 0;
+  background-color: #BEA155;
+  color: #5C4359;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 11px 6px;
+  border-radius: 9px;
+}
+
+.presentacion {
+  margin-top: 112.7px;
+  width: 100%;
+  height: 519px;
+  background-color: #5C4359;
+}
+
+.presentacion div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentacion div h2 {
+  font-weight: 600;
+  font-size: 71.4826px;
+  line-height: 76px;
+}
+
+.presentacion div h2 span {
+  color: #BEA155;
+}
+
+.redesSociales {
+  background-color: map-get #FFFFFF;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 100%;
+  text-align: center;
+  font-size: 1.0em;
+}
+
+.instagram {
+  color: #3f729b;
+}
+
+.instagram :hover {
+  color: #3f729b;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.linkedin :hover {
+  color: #0e76a8;
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+.youtube :hover {
+  color: #c4302b;
+}
+
+.botonWhatsApp img {
+  position: fixed;
+  width: 4em;
+  bottom: 7em;
+  right: -0.2em;
+}
+/*# sourceMappingURL=style.css.map */
