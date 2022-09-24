@@ -108,12 +108,190 @@ nav ul a {
 
 .presentacion div h2 {
   font-weight: 600;
-  font-size: 71.4826px;
+  font-size: 65px;
   line-height: 76px;
 }
 
 .presentacion div h2 span {
   color: #BEA155;
+}
+
+.CV {
+  height: 658px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CV p {
+  font-size: 24px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.fraseInspiradora {
+  width: 100%;
+  height: 232px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.fraseInspiradora h2 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 59px;
+  text-align: center;
+  width: 60%;
+  color: #5C4359;
+  padding-bottom: 10px;
+}
+
+.misServicios h2 {
+  text-align: center;
+  margin: 52px 0 65px 0;
+}
+
+.contenedorServicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorServicio div {
+  width: 544px;
+  height: 544px;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 39px;
+}
+
+.contenedorServicio div h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 38px 0;
+}
+
+.contenedorServicio div p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  width: 85%;
+}
+
+.cartaServicio {
+  background-color: #5C4359;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cartaServicio a {
+  color: #5C4359;
+  background-color: #BEA155;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24.2px;
+  line-height: 30px;
+  padding: 24px 12px;
+}
+
+.probonoServicio h3 {
+  margin-bottom: 10%;
+}
+
+.probonoServicio p {
+  width: 60% !important;
+}
+
+.probonoServicio a {
+  margin-top: 10%;
+}
+
+.proyectos {
+  height: 632px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.proyectos h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 42px 0;
+}
+
+.proyectos p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+  width: 84%;
+}
+
+.proyectos a {
+  margin-top: 3.2%;
+}
+
+.STEM {
+  height: 382px;
+  margin-top: 116px;
+  background-color: #5C4359;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.STEM h2 {
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 83px;
+}
+
+.STEM p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 45px;
 }
 
 .redesSociales {

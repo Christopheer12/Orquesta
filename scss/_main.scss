@@ -12,7 +12,7 @@
 
         h2 {
             font-weight: 600;
-            font-size: 71.4826px;
+            font-size: 65px;
             line-height: 76px;
 
             span {
@@ -23,3 +23,150 @@
 }
 
 // ################# Sección CV #################
+.CV {
+    height: 658px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-size: 24px;
+        line-height: 49px;
+        text-align: center;
+    }
+}
+
+// ======== Frase Inspiradora? ========
+.fraseInspiradora {
+    width: 100%;
+    height: 232px;
+    background-color: $Color2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    h2 {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 59px;
+        text-align: center;
+        width: 60%;
+        color: $Color4;
+        padding-bottom: 10px;
+    }
+}
+
+// ################# Sección Mis Servicios #################
+.misServicios h2 {
+    text-align: center;
+    margin: 52px 0 65px 0;
+}
+
+.contenedorServicio {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: 544px;
+        height: 544px;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 39px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            padding: 38px 0;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 35px;
+            width: 85%;
+        }
+    }
+}
+
+.cartaServicio {
+    background-color: $Color4;
+    text-align: center;
+    border-radius: 10px;
+
+    a {
+        color: $Color4;
+        background-color: $Color3;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 24.2px;
+        line-height: 30px;
+        padding: 24px 12px;
+    }
+}
+
+// ======== Probono ========
+.probonoServicio {
+    h3 {
+        margin-bottom: 10%;
+    }
+
+    p {
+        width: 60% !important;
+    }
+
+    a {
+        margin-top: 10%;
+    }
+}
+
+// ======== Proyectos para tu comunidad ========
+.proyectos {
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        padding: 42px 0;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 45px;
+        width: 84%;
+    }
+
+    a {
+        margin-top: 3.2%;
+    }
+}
+
+// ======== S.T.E.M -- Esperando Cambios ========
+.STEM {
+    height: 382px;
+    margin-top: 116px;
+    background-color: $Color4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        font-weight: 600;
+        font-size: 37px;
+        line-height: 83px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 45px;
+    }
+}
