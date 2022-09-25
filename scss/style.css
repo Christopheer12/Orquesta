@@ -18,6 +18,10 @@ body {
   z-index: 100;
 }
 
+.centrado {
+  text-align: center;
+}
+
 .redesSociales {
   background-color: #FFFFFF;
 }
