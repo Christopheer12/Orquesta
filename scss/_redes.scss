@@ -43,3 +43,13 @@
         &:hover{
             @extend %hovers___Footer;}
 }
+.container__tabla{
+    border: solid 0,1em black;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 3em);
+    font-size: 1em;
+    text-align: center;
+        &__precios{
+        border: solid 0.01em black; }
+}

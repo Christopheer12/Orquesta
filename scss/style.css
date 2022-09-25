@@ -253,4 +253,15 @@ nav ul a {
   width: 4em;
   bottom: 7em;
   right: -0.2em;
+}
+.container__tabla {
+  border: solid 0, 1em black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 3em);
+  font-size: 1em;
+  text-align: center;
+}
+.container__tabla__precios {
+  border: solid 0.01em black;
 }/*# sourceMappingURL=style.css.map */
