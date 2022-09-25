@@ -1,48 +1,65 @@
 .redesSociales {
-    background-color:map-get ($Color2);   
-    
+    background-color: $Color2;
     position: sticky;
-    bottom:0 ;
+    bottom: 0;
     left: 100%;
     text-align: center;
-    font-size:1.0em ;
-    
+    font-size: 1.0em;
+
 }
 
- 
- .instagram{
-    color: map-get($colores , instagram) ;
-    :hover{
-        color: map-get($colores , instagram) ;
-        @extend %hovers___Footer;}
+
+.instagram {
+    color: map-get($colores, instagram);
+
+    :hover {
+        color: map-get($colores, instagram);
+        @extend %hovers___Footer;
+    }
 }
 
 
 
 .linkedin {
-    color: map-get($colores , linkedin) ;
-    :hover{
-        color: map-get($colores , linkedin) ;
-        @extend %hovers___Footer;}
+    color: map-get($colores, linkedin);
+
+    :hover {
+        color: map-get($colores, linkedin);
+        @extend %hovers___Footer;
+    }
 }
 
 
-.youtube{
-    color: map-get($colores , youtube) ;
-    :hover{
-        color: map-get($colores , youtube) ;
-        @extend %hovers___Footer;}
+.youtube {
+    color: map-get($colores, youtube);
+
+    :hover {
+        color: map-get($colores, youtube);
+        @extend %hovers___Footer;
+    }
 }
 
 
-.botonWhatsApp img{
+.botonWhatsApp img {
     position: fixed;
     width: 4em;
     bottom: 7em;
     right: -0.2em;
-        &:hover{
-            @extend %hovers___Footer;}
+
+    &:hover {
+        @extend %hovers___Footer;
+    }
 }
+
+// ################# Pie de Pagina #################
+
+
+// ======== Logo pie ========
+
+
+
+//======== links ========
+
 
 .firma{
     color: map-get($colores , firma) ;
