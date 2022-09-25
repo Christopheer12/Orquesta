@@ -12,7 +12,7 @@ body {
   background-color: #000000;
 }
 
-.botonWhatsApp img:hover, .youtube :hover, .linkedin :hover, .instagram :hover {
+.firma :hover, .botonWhatsApp img:hover, .youtube :hover, .linkedin :hover, .instagram :hover {
   transition: 1s;
   transform: scale(2, 2);
   z-index: 100;
@@ -257,4 +257,10 @@ nav ul a {
   width: 4em;
   bottom: 7em;
   right: -0.2em;
+}
+.firma {
+  color: #BEA155;
+}
+.firma :hover {
+  color: #BEA155;
 }/*# sourceMappingURL=style.css.map */

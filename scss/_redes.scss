@@ -43,3 +43,10 @@
         &:hover{
             @extend %hovers___Footer;}
 }
+
+.firma{
+    color: map-get($colores , firma) ;
+    :hover{
+        color: map-get($colores , firma) ;
+        @extend %hovers___Footer;}
+}
