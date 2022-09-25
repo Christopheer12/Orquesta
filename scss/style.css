@@ -13,12 +13,20 @@ body {
   background-color: #000000;
 }
 
-.instagram :hover, .linkedin :hover, .youtube :hover, .botonWhatsApp img:hover {
+.instagram :hover, .linkedin :hover, .youtube :hover, .botonWhatsApp img:hover, .firma :hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-transform: scale(2, 2);
           transform: scale(2, 2);
   z-index: 100;
+}
+
+.centrado_text {
+  text-align: center;
+}
+
+.redesSociales {
+  background-color: #FFFFFF;
 }
 
 header {
@@ -355,5 +363,13 @@ nav ul a {
   width: 4em;
   bottom: 7em;
   right: -0.2em;
+}
+
+.firma {
+  color: #BEA155;
+}
+
+.firma :hover {
+  color: #BEA155;
 }
 /*# sourceMappingURL=style.css.map */
