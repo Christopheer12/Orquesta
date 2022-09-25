@@ -23,67 +23,30 @@ linkedin:#0e76a8 ,
 youtube:#c4302b,
 );
 
+// ======== Mezclas para ahorrar codigo ========
+@mixin MezclaLetras ($size, $weight, $lineHeight) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lineHeight;
+}
+
+@mixin MezclaFlex ($height , $display, $flexDirection, $justifyContent, $alignItems) {
+    height: $height;
+    display: $display;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+// ################# Cuerpo #################
 body {
     font-family: $Letra;
     color: $Color2;
     background-color: #000000
 }
 
-
-
-
 %hovers___Footer{
     transition:1s ;
     transform: scale(2,2);
     z-index: 100; 
 }
-
-
-
-// ################# Encabezado #################
-
-
-
-// ======== Logo cabeza ========
-
-
-
-//======== Navegador ========
-
-
-
-// ################# Sección Presentacion #################
-
-
-
-
-// ################# Sección CV #################
-
-
-
-// ======== Frase Inspiradora? ========
-
-
-
-// ################# Sección Mis Servicios #################
-
-
-
-// ======== STEM -- Esto seguramente va ser cambiado ========
-
-
-
-// ########## Redes Sociales ##########
-.redesSociales {
-    background-color: $Color2;
-}
-
-
-// ################# Pie de Pagina #################
-
-
-// ======== Logo pie ========
-
-
-
-//======== links ========

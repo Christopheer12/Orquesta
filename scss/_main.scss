@@ -6,14 +6,10 @@
     background-color: $Color4;
 
     div {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+        @include MezclaFlex (initial , flex, row-reverse, initial, center);
 
         h2 {
-            font-weight: 600;
-            font-size: 65px;
-            line-height: 76px;
+            @include MezclaLetras(65px, 600, 76px);
 
             span {
                 color: $Color3;
@@ -24,14 +20,10 @@
 
 // ################# Sección CV #################
 .CV {
-    height: 658px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include MezclaFlex (658px , flex, initial, space-between, center);
 
     p {
-        font-size: 24px;
-        line-height: 49px;
+        @include MezclaLetras(24px, initial, 49px);
         text-align: center;
     }
 }
@@ -39,16 +31,11 @@
 // ======== Frase Inspiradora? ========
 .fraseInspiradora {
     width: 100%;
-    height: 232px;
+    @include MezclaFlex (232px , flex, initial, center, flex-end);
     background-color: $Color2;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 
     h2 {
-        font-weight: 500;
-        font-size: 34px;
-        line-height: 59px;
+        @include MezclaLetras(34px, 500, 59px);
         text-align: center;
         width: 60%;
         color: $Color4;
@@ -68,24 +55,17 @@
 
     div {
         width: 544px;
-        height: 544px;
+        @include MezclaFlex (544px , flex, column, initial, center);
         padding: 1%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 39px;
 
         h3 {
-            font-weight: 600;
-            font-size: 36px;
-            line-height: 44px;
+            @include MezclaLetras(36px, 600, 44px);
             padding: 38px 0;
         }
 
         p {
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 35px;
+            @include MezclaLetras(20px, 400, 35px);
             width: 85%;
         }
     }
@@ -100,9 +80,7 @@
         color: $Color4;
         background-color: $Color3;
         border-radius: 10px;
-        font-weight: 700;
-        font-size: 24.2px;
-        line-height: 30px;
+        @include MezclaLetras(24.2px, 700, 30px);
         padding: 24px 12px;
     }
 }
@@ -124,22 +102,15 @@
 
 // ======== Proyectos para tu comunidad ========
 .proyectos {
-    height: 632px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include MezclaFlex (632px , flex, column, initial, center);
 
     h3 {
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 44px;
+        @include MezclaLetras(36px, 600, 44px);
         padding: 42px 0;
     }
 
     p {
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 45px;
+        @include MezclaLetras(22px, 400, 45px);
         width: 84%;
     }
 
@@ -150,23 +121,16 @@
 
 // ======== S.T.E.M -- Esperando Cambios ========
 .STEM {
-    height: 382px;
+    @include MezclaFlex (382px , flex, column, center, initial);
     margin-top: 116px;
     background-color: $Color4;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
     h2 {
-        font-weight: 600;
-        font-size: 37px;
-        line-height: 83px;
+        @include MezclaLetras(37px, 600, 83px);
     }
 
     p {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 45px;
+        @include MezclaLetras(24px, 400, 45px);
     }
 }

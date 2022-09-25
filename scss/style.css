@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -12,49 +13,65 @@ body {
   background-color: #000000;
 }
 
-.botonWhatsApp img:hover, .youtube :hover, .linkedin :hover, .instagram :hover {
+.instagram :hover, .linkedin :hover, .youtube :hover, .botonWhatsApp img:hover {
+  -webkit-transition: 1s;
   transition: 1s;
-  transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
   z-index: 100;
-}
-
-.redesSociales {
-  background-color: #FFFFFF;
 }
 
 header {
   width: 100%;
-  display: flex;
   height: 125px;
-  justify-content: space-between;
-  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logoCompletoH {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 1% 0;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .logoCompletoH img {
   height: 91px;
 }
 
 h1 {
-  font: normal 400 36px "Signika", serif;
+  font: normal 400 36px 'Signika', serif;
   line-height: 44px;
   text-align: center;
 }
 
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin-bottom: 6px;
 }
+
 nav ul a {
   color: #FFFFFF;
+  font-size: 21.6px;
   font-weight: 400;
   line-height: 27px;
-  font-size: 21.6px;
   margin-right: 36px;
 }
 
@@ -62,8 +79,8 @@ nav ul a {
   margin: 0;
   background-color: #BEA155;
   color: #5C4359;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 22px;
   padding: 11px 6px;
   border-radius: 9px;
@@ -75,28 +92,54 @@ nav ul a {
   height: 519px;
   background-color: #5C4359;
 }
+
 .presentacion div {
+  height: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .presentacion div h2 {
-  font-weight: 600;
   font-size: 65px;
+  font-weight: 600;
   line-height: 76px;
 }
+
 .presentacion div h2 span {
   color: #BEA155;
 }
 
 .CV {
   height: 658px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .CV p {
   font-size: 24px;
+  font-weight: initial;
   line-height: 49px;
   text-align: center;
 }
@@ -104,14 +147,25 @@ nav ul a {
 .fraseInspiradora {
   width: 100%;
   height: 232px;
-  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #FFFFFF;
 }
+
 .fraseInspiradora h2 {
-  font-weight: 500;
   font-size: 34px;
+  font-weight: 500;
   line-height: 59px;
   text-align: center;
   width: 60%;
@@ -125,27 +179,44 @@ nav ul a {
 }
 
 .contenedorServicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .contenedorServicio div {
   width: 544px;
   height: 544px;
-  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
   margin-bottom: 39px;
 }
+
 .contenedorServicio div h3 {
-  font-weight: 600;
   font-size: 36px;
+  font-weight: 600;
   line-height: 44px;
   padding: 38px 0;
 }
+
 .contenedorServicio div p {
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   line-height: 35px;
   width: 85%;
 }
@@ -155,12 +226,13 @@ nav ul a {
   text-align: center;
   border-radius: 10px;
 }
+
 .cartaServicio a {
   color: #5C4359;
   background-color: #BEA155;
   border-radius: 10px;
-  font-weight: 700;
   font-size: 24.2px;
+  font-weight: 700;
   line-height: 30px;
   padding: 24px 12px;
 }
@@ -168,68 +240,96 @@ nav ul a {
 .probonoServicio h3 {
   margin-bottom: 10%;
 }
+
 .probonoServicio p {
   width: 60% !important;
 }
+
 .probonoServicio a {
   margin-top: 10%;
 }
 
 .proyectos {
   height: 632px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .proyectos h3 {
-  font-weight: 600;
   font-size: 36px;
+  font-weight: 600;
   line-height: 44px;
   padding: 42px 0;
 }
+
 .proyectos p {
-  font-weight: 400;
   font-size: 22px;
+  font-weight: 400;
   line-height: 45px;
   width: 84%;
 }
+
 .proyectos a {
   margin-top: 3.2%;
 }
 
 .STEM {
   height: 382px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
   margin-top: 116px;
   background-color: #5C4359;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
+
 .STEM h2 {
-  font-weight: 600;
   font-size: 37px;
+  font-weight: 600;
   line-height: 83px;
 }
+
 .STEM p {
-  font-weight: 400;
   font-size: 24px;
+  font-weight: 400;
   line-height: 45px;
 }
 
 .redesSociales {
-  background-color: map-get #FFFFFF;
+  background-color: #FFFFFF;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   left: 100%;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.0em;
 }
 
 .instagram {
   color: #3f729b;
 }
+
 .instagram :hover {
   color: #3f729b;
 }
@@ -237,6 +337,7 @@ nav ul a {
 .linkedin {
   color: #0e76a8;
 }
+
 .linkedin :hover {
   color: #0e76a8;
 }
@@ -244,6 +345,7 @@ nav ul a {
 .youtube {
   color: #c4302b;
 }
+
 .youtube :hover {
   color: #c4302b;
 }
@@ -253,4 +355,5 @@ nav ul a {
   width: 4em;
   bottom: 7em;
   right: -0.2em;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
