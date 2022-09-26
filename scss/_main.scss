@@ -1,165 +1,176 @@
 // ################# Sección Presentacion #################
 .presentacion {
-    margin-top: 112.7px;
-    width: 100%;
-    height: 519px;
-    background-color: $Color4;
+  margin-top: 112.7px;
+  width: 100%;
+  height: 519px;
+  background-color: $Color4;
 
-    div {
-        @include MezclaFlex (initial , flex, row-reverse, initial, center);
+  div {
+    @include MezclaFlex(initial, flex, row-reverse, initial, center);
 
-        h2 {
-            @include MezclaLetras(65px, 600, 76px);
+    h2 {
+      @include MezclaLetras(6.5em, 600, 76px);
 
-            span {
-                color: $Color3;
-            }
-        }
+      span {
+        color: $Color3;
+        font-size: 1em;
+      }
     }
+  }
 }
 
 // ################# Sección CV #################
 .CV {
-    @include MezclaFlex (658px , flex, initial, space-between, center);
+  @include MezclaFlex(658px, flex, initial, space-between, center);
+  img {
+    height: 48em;
+  }
 
-    p {
-        @include MezclaLetras(24px, initial, 49px);
-        text-align: center;
+  p {
+    @include MezclaLetras(24px, initial, 49px);
+    text-align: center;
+    b {
+      font-size: 1em;
     }
+  }
 }
 
 // ======== Frase Inspiradora? ========
 .fraseInspiradora {
-    width: 100%;
-    @include MezclaFlex (232px , flex, initial, center, flex-end);
-    background-color: $Color2;
+  width: 100%;
+  @include MezclaFlex(232px, flex, initial, center, flex-end);
+  background-color: $Color2;
 
-    h2 {
-        @include MezclaLetras(34px, 500, 59px);
-        text-align: center;
-        width: 60%;
-        color: $Color4;
-        padding-bottom: 10px;
-    }
+  h2 {
+    @include MezclaLetras(34px, 500, 59px);
+    text-align: center;
+    width: 60%;
+    color: $Color4;
+    padding-bottom: 10px;
+  }
 }
 
 // ################# Sección Mis Servicios #################
 .misServicios h2 {
-    text-align: center;
-    margin: 52px 0 65px 0;
+  text-align: center;
+  margin: 52px 0 65px 0;
 }
 
 .contenedorServicio {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    div {
-        width: 544px;
-        @include MezclaFlex (544px , flex, column, initial, center);
-        padding: 1%;
-        margin-bottom: 39px;
+  div {
+    width: 544px;
+    @include MezclaFlex(544px, flex, column, initial, center);
+    padding: 1%;
+    margin-bottom: 39px;
 
-        h3 {
-            @include MezclaLetras(36px, 600, 44px);
-            padding: 38px 0;
-        }
-
-        p {
-            @include MezclaLetras(20px, 400, 35px);
-            width: 85%;
-        }
+    h3 {
+      @include MezclaLetras(36px, 600, 44px);
+      padding: 38px 0;
     }
+
+    p {
+      @include MezclaLetras(20px, 400, 35px);
+      width: 85%;
+    }
+  }
 }
 
 .cartaServicio {
-    background-color: $Color4;
-    text-align: center;
-    border-radius: 10px;
+  background-color: $Color4;
+  text-align: center;
+  border-radius: 10px;
 
-    a {
-        color: $Color4;
-        background-color: $Color3;
-        border-radius: 10px;
-        @include MezclaLetras(24.2px, 700, 30px);
-        padding: 24px 12px;
-    }
+  a {
+    color: $Color4;
+    background-color: $Color3;
+    border-radius: 10px;
+    @include MezclaLetras(24.2px, 700, 30px);
+    padding: 24px 12px;
+  }
 }
 
 // ======== Probono ========
 .probonoServicio {
-    h3 {
-        margin-bottom: 10%;
-    }
+  h3 {
+    margin-bottom: 10%;
+  }
 
-    p {
-        width: 60% !important;
-    }
+  p {
+    width: 60% !important;
+  }
 
-    a {
-        margin-top: 10%;
-    }
+  a {
+    margin-top: 10%;
+  }
 }
 
 // ======== Proyectos para tu comunidad ========
 .proyectos {
-    @include MezclaFlex (632px , flex, column, initial, center);
+  @include MezclaFlex(632px, flex, column, initial, center);
 
-    h3 {
-        @include MezclaLetras(36px, 600, 44px);
-        padding: 42px 0;
-    }
+  h3 {
+    @include MezclaLetras(36px, 600, 44px);
+    padding: 42px 0;
+  }
 
-    p {
-        @include MezclaLetras(22px, 400, 45px);
-        width: 84%;
-    }
+  p {
+    @include MezclaLetras(22px, 400, 45px);
+    width: 84%;
+  }
 
-    a {
-        margin-top: 3.2%;
-    }
+  a {
+    margin-top: 3.2%;
+  }
 }
 
 // ======== S.T.E.M -- Esperando Cambios ========
 .STEM {
-    @include MezclaFlex (382px , flex, column, center, initial);
-    margin-top: 116px;
-    background-color: $Color4;
-    text-align: center;
+  @include MezclaFlex(382px, flex, column, center, initial);
+  margin-top: 116px;
+  background-color: $Color4;
+  text-align: center;
 
-    h2 {
-        @include MezclaLetras(37px, 600, 83px);
-    }
+  h2 {
+    @include MezclaLetras(37px, 600, 83px);
+  }
 
-    p {
-        @include MezclaLetras(24px, 400, 45px);
-    }
+  p {
+    @include MezclaLetras(24px, 400, 45px);
+  }
 }
 
 // ################# Sección Contacto #################
 .contacto form {
-    width: 51%;
-    margin: auto;
-    margin-bottom: 77px;
-    h2 {
-        padding-top: 51px;
-        @include MezclaLetras(48px, 600, 59px);
-    }
-    p { @include MezclaLetras(24px, 400, 30px);}
+  width: 51%;
+  margin: auto;
+  margin-bottom: 77px;
+  h2 {
+    padding-top: 51px;
+    @include MezclaLetras(48px, 600, 59px);
+  }
+  p {
+    @include MezclaLetras(24px, 400, 30px);
+  }
 
-    input, textarea {
-        @include MezclaLetras(24px, 400, 30px);;
-        background-color: $Color5;
-        padding: 5.2% 1%;
-        margin-bottom: 8px;
-    }
+  input,
+  textarea {
+    @include MezclaLetras(24px, 400, 30px);
+    background-color: $Color5;
+    padding: 5.2% 1%;
+    margin-bottom: 8px;
+  }
 
-    textarea {padding: 2% 1%;}
+  textarea {
+    padding: 2% 1%;
+  }
 
-    .submit {
-        font-weight: 700;
-        background-color: $Color3;
-        color: $Color4;
-        padding: 25px 1% 50px 1%;
-    }
+  .submit {
+    font-weight: 700;
+    background-color: $Color3;
+    color: $Color4;
+    padding: 25px 1% 50px 1%;
+  }
 }
-

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
 * {
+  font-size: 10px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -13,11 +13,9 @@ body {
   background-color: #000000;
 }
 
-.instagram :hover, .linkedin :hover, .youtube :hover, .firma :hover, .botonWhatsApp img:hover {
-  -webkit-transition: 1s;
+.botonWhatsApp img:hover, .firma :hover, .youtube :hover, .linkedin :hover, .instagram :hover {
   transition: 1s;
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
+  transform: scale(2, 2);
   z-index: 100;
 }
 
@@ -27,56 +25,39 @@ body {
 
 header {
   width: 100%;
-  height: 125px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 12.5em;
   display: flex;
-  -webkit-box-orient: initial;
-  -webkit-box-direction: initial;
-      -ms-flex-direction: initial;
-          flex-direction: initial;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoCompletoH {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 1% 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .logoCompletoH img {
-  height: 91px;
+  height: 9.1em;
 }
 
 h1 {
-  font: normal 400 36px 'Signika', serif;
-  line-height: 44px;
+  font: normal 40em 3.6em "Signika", serif;
+  line-height: 4.4em;
   text-align: center;
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin-bottom: 6px;
+  margin-bottom: 0.6em;
 }
-
 nav ul a {
   color: #FFFFFF;
-  font-size: 21.6px;
-  font-weight: 400;
-  line-height: 27px;
-  margin-right: 36px;
+  font-size: 2.16em;
+  font-weight: 40em;
+  line-height: 1em;
+  margin-right: 1.5em;
 }
 
 .contactoConmingo {
@@ -84,10 +65,10 @@ nav ul a {
   background-color: #BEA155;
   color: #5C4359;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-  padding: 11px 6px;
-  border-radius: 9px;
+  font-weight: 70em;
+  line-height: 2.2em;
+  padding: 1.1em 0.6em;
+  border-radius: 0.9em;
 }
 
 .presentacion {
@@ -96,77 +77,52 @@ nav ul a {
   height: 519px;
   background-color: #5C4359;
 }
-
 .presentacion div {
   height: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: initial;
-      -ms-flex-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row-reverse;
+  justify-content: initial;
+  align-items: center;
 }
-
 .presentacion div h2 {
-  font-size: 65px;
+  font-size: 6.5em;
   font-weight: 600;
   line-height: 76px;
 }
-
 .presentacion div h2 span {
   color: #BEA155;
+  font-size: 1em;
 }
 
 .CV {
   height: 658px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: initial;
-  -webkit-box-direction: initial;
-      -ms-flex-direction: initial;
-          flex-direction: initial;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.CV img {
+  height: 48em;
+}
 .CV p {
   font-size: 24px;
   font-weight: initial;
   line-height: 49px;
   text-align: center;
 }
+.CV p b {
+  font-size: 1em;
+}
 
 .fraseInspiradora {
   width: 100%;
   height: 232px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: initial;
-  -webkit-box-direction: initial;
-      -ms-flex-direction: initial;
-          flex-direction: initial;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: flex-end;
   background-color: #FFFFFF;
 }
-
 .fraseInspiradora h2 {
   font-size: 34px;
   font-weight: 500;
@@ -183,41 +139,25 @@ nav ul a {
 }
 
 .contenedorServicio {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .contenedorServicio div {
   width: 544px;
   height: 544px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: initial;
-      -ms-flex-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
   padding: 1%;
   margin-bottom: 39px;
 }
-
 .contenedorServicio div h3 {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   padding: 38px 0;
 }
-
 .contenedorServicio div p {
   font-size: 20px;
   font-weight: 400;
@@ -230,7 +170,6 @@ nav ul a {
   text-align: center;
   border-radius: 10px;
 }
-
 .cartaServicio a {
   color: #5C4359;
   background-color: #BEA155;
@@ -244,76 +183,51 @@ nav ul a {
 .probonoServicio h3 {
   margin-bottom: 10%;
 }
-
 .probonoServicio p {
   width: 60% !important;
 }
-
 .probonoServicio a {
   margin-top: 10%;
 }
 
 .proyectos {
   height: 632px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: initial;
-      -ms-flex-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
 }
-
 .proyectos h3 {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   padding: 42px 0;
 }
-
 .proyectos p {
   font-size: 22px;
   font-weight: 400;
   line-height: 45px;
   width: 84%;
 }
-
 .proyectos a {
   margin-top: 3.2%;
 }
 
 .STEM {
   height: 382px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: initial;
-      -ms-flex-align: initial;
-          align-items: initial;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
   margin-top: 116px;
   background-color: #5C4359;
   text-align: center;
 }
-
 .STEM h2 {
   font-size: 37px;
   font-weight: 600;
   line-height: 83px;
 }
-
 .STEM p {
   font-size: 24px;
   font-weight: 400;
@@ -325,21 +239,19 @@ nav ul a {
   margin: auto;
   margin-bottom: 77px;
 }
-
 .contacto form h2 {
   padding-top: 51px;
   font-size: 48px;
   font-weight: 600;
   line-height: 59px;
 }
-
 .contacto form p {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
 }
-
-.contacto form input, .contacto form textarea {
+.contacto form input,
+.contacto form textarea {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -347,11 +259,9 @@ nav ul a {
   padding: 5.2% 1%;
   margin-bottom: 8px;
 }
-
 .contacto form textarea {
   padding: 2% 1%;
 }
-
 .contacto form .submit {
   font-weight: 700;
   background-color: #BEA155;
@@ -366,14 +276,16 @@ nav ul a {
   bottom: 0;
   left: 100%;
   text-align: center;
-  font-size: 1.0em;
-  padding: 16px 0 12px 0;
+  font-size: 1em;
+  padding: 1.7em 0 1.2em 0;
+}
+.redesSociales i {
+  font-size: 4.8em;
 }
 
 .instagram {
   color: #3f729b;
 }
-
 .instagram :hover {
   color: #3f729b;
 }
@@ -381,7 +293,6 @@ nav ul a {
 .linkedin {
   color: #0e76a8;
 }
-
 .linkedin :hover {
   color: #0e76a8;
 }
@@ -389,7 +300,6 @@ nav ul a {
 .youtube {
   color: #c4302b;
 }
-
 .youtube :hover {
   color: #c4302b;
 }
@@ -397,46 +307,41 @@ nav ul a {
 .firma {
   color: #BEA155;
 }
-
 .firma :hover {
   color: #BEA155;
 }
 
 .botonWhatsApp img {
   position: fixed;
-  width: 4em;
+  width: 7em;
   bottom: 7em;
   right: -0.2em;
 }
-
 footer {
   background-color: #151414;
 }
 
 .logoCompletoF h2 {
   padding: 2% 0 4% 0;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 59px;
+  font-size: 4.8em;
+  font-weight: 40em;
+  line-height: 5.9em;
 }
 
 .linksFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 30px;
+  font-size: 1000em;
 }
-
 .linksFooter h3 {
   font-size: 32px;
   font-weight: 400;
   line-height: 39px;
 }
-
 .linksFooter h3 a {
   color: #FFFFFF;
+  font-size: 1em;
 }
-
 .linksFooter .col {
   padding: 0;
 }
@@ -444,11 +349,9 @@ footer {
 .serviciosLinks ul {
   list-style: none;
 }
-
 .serviciosLinks ul li {
   margin: 10px 0;
 }
-
 .serviciosLinks ul li a {
   color: #FFFFFF;
   padding-left: 20%;
@@ -464,26 +367,27 @@ footer {
 
 .linkStem {
   text-align: end;
+  font-size: 1em;
 }
 
 .derechos {
   padding: 30px;
   background-color: #2D2C2C;
 }
-
 .derechos p {
   font-size: 32px;
   font-weight: 400;
   line-height: 39px;
   text-align: center;
 }
-
 .derechos div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  font-size: 1em;
 }
-/*# sourceMappingURL=style.css.map */
+.derechos div a {
+  font-size: 1.6em;
+}
+.derechos div i {
+  font-size: 1em;
+}/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    @include MezclaFlex (125px , flex, initial, space-between, center);
+    @include MezclaFlex (12.5em , flex, initial, space-between, center);
 }
 
 // ################# Logo #################
@@ -10,13 +10,13 @@ header {
     align-items: center;
 
     img {
-        height: 91px;
+        height: 9.1em;
     }
 }
 
 h1 {
-    font: normal 400 36px 'Signika', serif;
-    line-height: 44px;
+    font: normal 40em 3.6em 'Signika', serif;
+    line-height: 4.4em;
     text-align: center;
 }
 
@@ -24,12 +24,12 @@ h1 {
 nav ul {
     display: flex;
     list-style: none;
-    margin-bottom: 6px;
+    margin-bottom: 0.6em;
 
     a {
         color: $Color2;
-        @include MezclaLetras (21.6px, 400, 27px);
-        margin-right: 36px;
+        @include MezclaLetras (2.16em, 40em, 1em);
+        margin-right: 1.5em;
     }
 }
 
@@ -37,7 +37,7 @@ nav ul {
     margin: 0;
     background-color: $Color3;
     color: $Color4;
-    @include MezclaLetras (18px, 700, 22px);
-    padding: 11px 6px;
-    border-radius: 9px;
+    @include MezclaLetras (18px, 70em, 2.2em);
+    padding: 1.1em 0.6em;
+    border-radius: 0.9em;
 }

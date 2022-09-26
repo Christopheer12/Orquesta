@@ -5,7 +5,10 @@
     left: 100%;
     text-align: center;
     font-size: 1.0em;
-    padding: 16px 0 12px 0;
+    padding: 1.7em 0 1.2em 0;
+    i{
+        font-size: 4.8em;
+    }
 
 }
 
@@ -22,7 +25,7 @@
 
 .botonWhatsApp img {
     position: fixed;
-    width: 4em;
+    width: 7em;
     bottom: 7em;
     right: -0.2em;
 
@@ -39,16 +42,18 @@ footer {
 // ======== Logo pie ========
 .logoCompletoF h2 {
     padding: 2% 0 4% 0;
-    @include MezclaLetras(48px, 400, 59px);
+    @include MezclaLetras(4.8em, 40em, 5.9em);
 }
 
 //======== links ========
 .linksFooter {
     display: flex;
     padding-bottom: 30px;
+    font-size: 1000em;
     h3 {
         @include MezclaLetras(32px, 400, 39px);
-        a {color: $Color2;}
+        a {color: $Color2;
+            font-size: 1em;}
     }
     .col {
         padding: 0;
@@ -70,23 +75,33 @@ footer {
 .linkCV {
     margin-left: 50px;
     text-align: center;
+    
 }
 
 .linkStem {
     text-align: end;
+    font-size: 1em;
+
 }
 //======== Derechos ========
 .derechos {
     padding: 30px;
     background-color: $Color7;
+ 
 
     p {
         @include MezclaLetras(32px, 400, 39px);
         text-align: center;
+        
     }
 
     div {
         display: flex;
         justify-content: space-between;
+        font-size: 1em;
+        a{
+            font-size: 1.6em;
+        }
+        i{font-size: 1em;}
     }
 }
