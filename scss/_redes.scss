@@ -5,40 +5,20 @@
     left: 100%;
     text-align: center;
     font-size: 1.0em;
+    padding: 16px 0 12px 0;
 
 }
 
+@each $redSocial,$color in $colores {
+    .#{$redSocial} {
+        color: $color;
 
-.instagram {
-    color: map-get($colores, instagram);
-
-    :hover {
-        color: map-get($colores, instagram);
-        @extend %hovers___Footer;
+        :hover {
+            color: $color;
+            @extend %hovers___Footer;
+        }
     }
 }
-
-
-
-.linkedin {
-    color: map-get($colores, linkedin);
-
-    :hover {
-        color: map-get($colores, linkedin);
-        @extend %hovers___Footer;
-    }
-}
-
-
-.youtube {
-    color: map-get($colores, youtube);
-
-    :hover {
-        color: map-get($colores, youtube);
-        @extend %hovers___Footer;
-    }
-}
-
 
 .botonWhatsApp img {
     position: fixed;
@@ -52,7 +32,9 @@
 }
 
 // ################# Pie de Pagina #################
-
+footer {
+    background-color: $Color6;
+}
 
 // ======== Logo pie ========
 
@@ -60,10 +42,6 @@
 
 //======== links ========
 
-
-.firma{
-    color: map-get($colores , firma) ;
-    :hover{
-        color: map-get($colores , firma) ;
-        @extend %hovers___Footer;}
+.derechos {
+    background-color: $Color7;
 }

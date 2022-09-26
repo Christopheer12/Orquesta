@@ -13,7 +13,7 @@ body {
   background-color: #000000;
 }
 
-.instagram :hover, .linkedin :hover, .youtube :hover, .botonWhatsApp img:hover, .firma :hover {
+.instagram :hover, .linkedin :hover, .youtube :hover, .firma :hover, .botonWhatsApp img:hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-transform: scale(2, 2);
@@ -320,6 +320,44 @@ nav ul a {
   line-height: 45px;
 }
 
+.contacto form {
+  width: 51%;
+  margin: auto;
+  margin-bottom: 77px;
+}
+
+.contacto form h2 {
+  padding-top: 51px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+}
+
+.contacto form p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contacto form input, .contacto form textarea {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: #D9D9D9;
+  padding: 5.2% 1%;
+}
+
+.contacto form textarea {
+  padding: 2% 1%;
+}
+
+.contacto form .submit {
+  font-weight: 700;
+  background-color: #BEA155;
+  color: #5C4359;
+  padding: 25px 1% 55px 1%;
+}
+
 .redesSociales {
   background-color: #FFFFFF;
   position: -webkit-sticky;
@@ -328,6 +366,7 @@ nav ul a {
   left: 100%;
   text-align: center;
   font-size: 1.0em;
+  padding: 16px 0 12px 0;
 }
 
 .instagram {
@@ -354,6 +393,14 @@ nav ul a {
   color: #c4302b;
 }
 
+.firma {
+  color: #BEA155;
+}
+
+.firma :hover {
+  color: #BEA155;
+}
+
 .botonWhatsApp img {
   position: fixed;
   width: 4em;
@@ -361,11 +408,11 @@ nav ul a {
   right: -0.2em;
 }
 
-.firma {
-  color: #BEA155;
+footer {
+  background-color: #151414;
 }
 
-.firma :hover {
-  color: #BEA155;
+.derechos {
+  background-color: #2D2C2C;
 }
 /*# sourceMappingURL=style.css.map */

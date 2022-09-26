@@ -134,3 +134,31 @@
         @include MezclaLetras(24px, 400, 45px);
     }
 }
+
+// ################# Sección Contacto #################
+.contacto form {
+    width: 51%;
+    margin: auto;
+    margin-bottom: 77px;
+    h2 {
+        padding-top: 51px;
+        @include MezclaLetras(48px, 600, 59px);
+    }
+    p { @include MezclaLetras(24px, 400, 30px);}
+
+    input, textarea {
+        @include MezclaLetras(24px, 400, 30px);;
+        background-color: $Color5;
+        padding: 5.2% 1%;
+    }
+
+    textarea {padding: 2% 1%;}
+
+    .submit {
+        font-weight: 700;
+        background-color: $Color3;
+        color: $Color4;
+        padding: 25px 1% 55px 1%;
+    }
+}
+
