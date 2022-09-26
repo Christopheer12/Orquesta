@@ -11,9 +11,7 @@
         h2 {
             @include MezclaLetras(65px, 600, 76px);
 
-            span {
-                color: $Color3;
-            }
+            span { color: $Color3;}
         }
     }
 }
@@ -87,17 +85,11 @@
 
 // ======== Probono ========
 .probonoServicio {
-    h3 {
-        margin-bottom: 10%;
-    }
+    h3 { margin-bottom: 10%;}
 
-    p {
-        width: 60% !important;
-    }
+    p { width: 60% !important;}
 
-    a {
-        margin-top: 10%;
-    }
+    a { margin-top: 10%;}
 }
 
 // ======== Proyectos para tu comunidad ========
@@ -114,9 +106,7 @@
         width: 84%;
     }
 
-    a {
-        margin-top: 3.2%;
-    }
+    a { margin-top: 3.2%;}
 }
 
 // ======== S.T.E.M -- Esperando Cambios ========
@@ -126,13 +116,9 @@
     background-color: $Color4;
     text-align: center;
 
-    h2 {
-        @include MezclaLetras(37px, 600, 83px);
-    }
+    h2 { @include MezclaLetras(37px, 600, 83px);}
 
-    p {
-        @include MezclaLetras(24px, 400, 45px);
-    }
+    p { @include MezclaLetras(24px, 400, 45px);}
 }
 
 // ################# Sección Contacto #################
@@ -140,6 +126,7 @@
     width: 51%;
     margin: auto;
     margin-bottom: 77px;
+    
     h2 {
         padding-top: 51px;
         @include MezclaLetras(48px, 600, 59px);

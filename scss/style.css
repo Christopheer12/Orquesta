@@ -484,6 +484,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -499,6 +501,118 @@ footer {
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 992px) {
+  .logoCompletoH, nav {
+    margin: auto;
+  }
+  .presentacion {
+    margin-top: 92.7px;
+    height: 460px;
+  }
+  .presentacion img {
+    width: 50%;
+    height: 460px;
+  }
+  .presentacion div {
+    width: 100%;
+  }
+  .presentacion div h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 100%;
+  }
+  .CV {
+    height: 558px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .CV img {
+    width: 50%;
+    height: 360px;
+  }
+  .CV p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: initial;
+    line-height: 39px;
+    text-align: center;
+  }
+  .fraseInspiradora h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 49px;
+  }
+  .contenedorServicio div {
+    height: 464px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedorServicio div h3, .proyectos h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  .contenedorServicio div p, .proyectos p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 95%;
+  }
+  .proyectos {
+    height: 502px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .linksFooter h3 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .serviciosLinks ul li a {
+    padding-left: 10%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .derechos div a {
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -50,9 +50,7 @@ footer {
         @include MezclaLetras(32px, 400, 39px);
         a {color: $Color2;}
     }
-    .col {
-        padding: 0;
-    }
+    .col { padding: 0;}
 }
 
 .serviciosLinks ul {
@@ -72,9 +70,7 @@ footer {
     text-align: center;
 }
 
-.linkStem {
-    text-align: end;
-}
+.linkStem { text-align: end;}
 //======== Derechos ========
 .derechos {
     padding: 30px;
@@ -87,6 +83,7 @@ footer {
 
     div {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
@@ -94,4 +91,61 @@ footer {
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     .presentacion div h2{ @include MezclaLetras(55px, 600, 66px);}
     .serviciosLinks ul li a{ @include MezclaLetras (20px, 400, 27px);}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 992px) {
+    .logoCompletoH, nav { margin: auto;}
+
+    .presentacion {
+        margin-top: 92.7px;
+        height: 460px;
+        img {
+            width: 50%;
+            height: 460px;}
+        div {
+            width: 100%;
+            h2 {
+                @include MezclaLetras(38px, 600, 56px);
+                width: 100%;}
+        }
+    }
+
+    .CV {
+        @include MezclaFlex (558px , flex, initial, space-between, center);   
+        img {
+            width: 50%;
+            height: 360px;}
+        p {
+            width: 100%;
+            @include MezclaLetras(18px, initial, 39px);
+            text-align: center;}
+    }
+
+    .fraseInspiradora h2 { @include MezclaLetras(26px, 500, 49px);}
+
+    .contenedorServicio div {
+        @include MezclaFlex (464px , flex, column, initial, center);
+    }
+
+    .contenedorServicio div h3, .proyectos h3 {
+        @include MezclaLetras(28px, 600, 38px);
+    }
+
+    .contenedorServicio div p, .proyectos p {
+        @include MezclaLetras(16px, 400, 30px);
+        width: 95%;
+    }
+
+    .proyectos {@include MezclaFlex (502px , flex, column, initial, center);}
+
+    .linksFooter h3 {
+        @include MezclaLetras(26px, 400, 32px);
+    }
+    
+    .serviciosLinks ul li a{ 
+        padding-left: 10%;
+        @include MezclaLetras (16px, 400, 23px);
+    }
+
+    .derechos div a {padding-bottom: 10px;}
 }
