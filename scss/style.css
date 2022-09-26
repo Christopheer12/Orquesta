@@ -345,6 +345,7 @@ nav ul a {
   line-height: 30px;
   background-color: #D9D9D9;
   padding: 5.2% 1%;
+  margin-bottom: 8px;
 }
 
 .contacto form textarea {
@@ -355,7 +356,7 @@ nav ul a {
   font-weight: 700;
   background-color: #BEA155;
   color: #5C4359;
-  padding: 25px 1% 55px 1%;
+  padding: 25px 1% 50px 1%;
 }
 
 .redesSociales {
@@ -412,7 +413,77 @@ footer {
   background-color: #151414;
 }
 
+.logoCompletoF h2 {
+  padding: 2% 0 4% 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.linksFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.linksFooter h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.linksFooter h3 a {
+  color: #FFFFFF;
+}
+
+.linksFooter .col {
+  padding: 0;
+}
+
+.serviciosLinks ul {
+  list-style: none;
+}
+
+.serviciosLinks ul li {
+  margin: 10px 0;
+}
+
+.serviciosLinks ul li a {
+  color: #FFFFFF;
+  padding-left: 20%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.linkCV {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.linkStem {
+  text-align: end;
+}
+
 .derechos {
+  padding: 30px;
   background-color: #2D2C2C;
+}
+
+.derechos p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+}
+
+.derechos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

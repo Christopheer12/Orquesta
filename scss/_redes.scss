@@ -37,11 +37,56 @@ footer {
 }
 
 // ======== Logo pie ========
-
-
+.logoCompletoF h2 {
+    padding: 2% 0 4% 0;
+    @include MezclaLetras(48px, 400, 59px);
+}
 
 //======== links ========
+.linksFooter {
+    display: flex;
+    padding-bottom: 30px;
+    h3 {
+        @include MezclaLetras(32px, 400, 39px);
+        a {color: $Color2;}
+    }
+    .col {
+        padding: 0;
+    }
+}
 
+.serviciosLinks ul {
+    list-style: none;
+    li {
+        margin: 10px 0;
+        a {
+            color: $Color2;
+            padding-left: 20%;
+            @include MezclaLetras(24px, 400, 29px);  
+        }
+    }
+}
+
+.linkCV {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.linkStem {
+    text-align: end;
+}
+//======== Derechos ========
 .derechos {
+    padding: 30px;
     background-color: $Color7;
+
+    p {
+        @include MezclaLetras(32px, 400, 39px);
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+    }
 }

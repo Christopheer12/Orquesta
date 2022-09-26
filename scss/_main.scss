@@ -150,6 +150,7 @@
         @include MezclaLetras(24px, 400, 30px);;
         background-color: $Color5;
         padding: 5.2% 1%;
+        margin-bottom: 8px;
     }
 
     textarea {padding: 2% 1%;}
@@ -158,7 +159,7 @@
         font-weight: 700;
         background-color: $Color3;
         color: $Color4;
-        padding: 25px 1% 55px 1%;
+        padding: 25px 1% 50px 1%;
     }
 }
 
