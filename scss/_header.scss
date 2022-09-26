@@ -1,6 +1,7 @@
 header {
     width: 100%;
     @include MezclaFlex (125px , flex, initial, space-between, center);
+    flex-wrap: wrap;
 }
 
 // ################# Logo #################
