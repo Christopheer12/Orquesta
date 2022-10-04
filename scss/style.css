@@ -7,10 +7,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Signika";
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .instagram :hover, .linkedin :hover, .youtube :hover, .firma :hover, .botonWhatsApp img:hover {
@@ -74,7 +78,7 @@ nav ul {
 }
 
 nav ul a {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 21.6px;
   font-weight: 400;
   line-height: 27px;
@@ -117,6 +121,7 @@ nav ul a {
 }
 
 .presentacion div h2 {
+  color: #FFFFFF;
   font-size: 65px;
   font-weight: 600;
   line-height: 76px;
@@ -166,7 +171,7 @@ nav ul a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-color: #FFFFFF;
+  background-color: #000000;
 }
 
 .fraseInspiradora h2 {
@@ -175,7 +180,7 @@ nav ul a {
   line-height: 59px;
   text-align: center;
   width: 60%;
-  color: #5C4359;
+  color: #FFFFFF;
   padding: 20px 0 10px 0;
 }
 
@@ -228,9 +233,10 @@ nav ul a {
 }
 
 .cartaServicio {
-  background-color: #5C4359;
+  background-color: #6DB0C1;
   text-align: center;
   border-radius: 10px;
+  color: #FFFFFF;
 }
 
 .cartaServicio a {
@@ -374,6 +380,7 @@ nav ul a {
 
 .instagram {
   color: #3f729b;
+  margin-left: 10px;
 }
 
 .instagram :hover {
@@ -382,6 +389,7 @@ nav ul a {
 
 .linkedin {
   color: #0e76a8;
+  margin-left: 10px;
 }
 
 .linkedin :hover {
@@ -390,6 +398,7 @@ nav ul a {
 
 .youtube {
   color: #c4302b;
+  margin-left: 10px;
 }
 
 .youtube :hover {
@@ -398,6 +407,7 @@ nav ul a {
 
 .firma {
   color: #BEA155;
+  margin-left: 10px;
 }
 
 .firma :hover {
@@ -413,6 +423,7 @@ nav ul a {
 
 footer {
   background-color: #151414;
+  color: #FFFFFF;
 }
 
 .logoCompletoF h2 {

@@ -19,6 +19,7 @@ $Color4: #5C4359;
 $Color5: #D9D9D9;
 $Color6: #151414;
 $Color7: #2D2C2C;
+$Color8: #6DB0C1;
 
 // ======== Mapa Colores ========
 $colores:(
@@ -43,11 +44,12 @@ firma:#BEA155,
     align-items: $alignItems;
 }
 
+html {scroll-behavior:smooth;}
 // ################# Cuerpo #################
 body {
     font-family: $Letra;
-    color: $Color2;
-    background-color: #000000
+    color: $Color1;
+    background-color: $Color2;
 }
 
 %hovers___Footer{

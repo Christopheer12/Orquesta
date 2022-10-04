@@ -9,6 +9,7 @@
         @include MezclaFlex (initial , flex, row-reverse, initial, center);
 
         h2 {
+            color: $Color2;
             @include MezclaLetras(65px, 600, 76px);
 
             span { color: $Color3;}
@@ -30,13 +31,13 @@
 .fraseInspiradora {
     width: 100%;
     @include MezclaFlex (initial , flex, initial, center, flex-end);
-    background-color: $Color2;
+    background-color: $Color1;
 
     h2 {
         @include MezclaLetras(34px, 500, 59px);
         text-align: center;
         width: 60%;
-        color: $Color4;
+        color: $Color2;
         padding: 20px 0 10px 0;
     }
 }
@@ -70,10 +71,11 @@
 }
 
 .cartaServicio {
-    background-color: $Color4;
+    background-color: $Color8;
     text-align: center;
     border-radius: 10px;
-
+    color: $Color2;
+    
     a {
         color: $Color4;
         background-color: $Color3;

@@ -6,13 +6,12 @@
     text-align: center;
     font-size: 1.0em;
     padding: 16px 0 12px 0;
-
 }
 
 @each $redSocial,$color in $colores {
     .#{$redSocial} {
         color: $color;
-
+        margin-left: 10px;
         :hover {
             color: $color;
             @extend %hovers___Footer;
@@ -34,6 +33,7 @@
 // ################# Pie de Pagina #################
 footer {
     background-color: $Color6;
+    color: $Color2;
 }
 
 // ======== Logo pie ========
