@@ -297,7 +297,7 @@ nav ul a {
 }
 
 .STEM {
-  height: 382px;
+  height: 512px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,6 +312,7 @@ nav ul a {
       -ms-flex-align: initial;
           align-items: initial;
   margin-top: 116px;
+  color: #FFFFFF;
   background-color: #5C4359;
   text-align: center;
 }
@@ -326,6 +327,10 @@ nav ul a {
   font-size: 24px;
   font-weight: 400;
   line-height: 45px;
+}
+
+.STEM iframe {
+  margin: 0 auto;
 }
 
 .contacto form {

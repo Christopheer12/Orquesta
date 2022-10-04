@@ -113,14 +113,17 @@
 
 // ======== S.T.E.M -- Esperando Cambios ========
 .STEM {
-    @include MezclaFlex (382px , flex, column, center, initial);
+    @include MezclaFlex (512px , flex, column, center, initial);
     margin-top: 116px;
+    color: $Color2;
     background-color: $Color4;
     text-align: center;
 
     h2 { @include MezclaLetras(37px, 600, 83px);}
 
     p { @include MezclaLetras(24px, 400, 45px);}
+
+    iframe {margin: 0 auto;}
 }
 
 // ################# Sección Contacto #################
