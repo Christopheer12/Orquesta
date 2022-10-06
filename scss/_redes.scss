@@ -203,25 +203,46 @@ footer {
     .fraseInspiradora h2 { @include MezclaLetras(21px, 500, 32px); width: 90%;}
 
     // ################# Servicios #################
-    .contenedorServicio div {
-        @include MezclaFlex (464px , flex, column, initial, center);
+    .misServicios h2 {
+        text-align: initial;
+        @include MezclaLetras(28px, 600, 32px);
+        margin: 20px 0 35px 0;
     }
 
-    .contenedorServicio div h3, .proyectos h3 {
-        @include MezclaLetras(28px, 600, 38px);
-    }
-
-    .contenedorServicio div p, .proyectos p {
-        @include MezclaLetras(16px, 400, 30px);
-        width: 95%;
+    .contenedorServicio {
+        max-width: 100%;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    
+        .servicio, .proyectos {
+            width: 90%;
+            @include MezclaFlex (initial , flex, column, initial, center);
+            flex-shrink: 0;    
+            margin-right: 24px;
+    
+            h3 {
+                @include MezclaLetras(24px, 600, 27px);
+                padding: 28px 0;
+            }
+    
+            p {
+                @include MezclaLetras(18px, 400, 28px);
+                width: 92%;
+            }
+        }
     }
 
     .proyectos {@include MezclaFlex (502px , flex, column, initial, center);}
 
     // ################# STEM #################
-    .STEM iframe {
-        width: 340px; 
-        height: 215px;
+    .STEM{ 
+        height: 400px;
+        margin-top: 30px;
+        h2 { @include MezclaLetras(37px, 600, 48px);}
+        iframe {
+            width: 340px; 
+            height: 215px;
+        } 
     }
     
     // ################# Redes sociales #################
@@ -249,9 +270,7 @@ footer {
     // ################# Pie de Pagina #################
     .logoCompletoF h2 {@include MezclaLetras(28px, 400, 33px);}
     
-    .linksFooter h3 {
-        @include MezclaLetras(20px, 400, 28px);
-    }
+    .linksFooter h3 {@include MezclaLetras(20px, 400, 28px);}
 
     .serviciosLinks ul li a{ 
         padding-left: 0;

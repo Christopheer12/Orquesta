@@ -202,9 +202,11 @@ nav ul a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.contenedorServicio div {
+.contenedorServicio .servicio {
   width: 49%;
   height: 544px;
   display: -webkit-box;
@@ -224,14 +226,14 @@ nav ul a {
   margin-bottom: 39px;
 }
 
-.contenedorServicio div h3 {
+.contenedorServicio .servicio h3 {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   padding: 38px 0;
 }
 
-.contenedorServicio div p {
+.contenedorServicio .servicio p {
   font-size: 20px;
   font-weight: 400;
   line-height: 35px;
@@ -327,12 +329,6 @@ nav ul a {
   font-size: 37px;
   font-weight: 600;
   line-height: 83px;
-}
-
-.STEM p {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 45px;
 }
 
 .STEM iframe {
@@ -732,8 +728,22 @@ footer {
     line-height: 32px;
     width: 90%;
   }
-  .contenedorServicio div {
-    height: 464px;
+  .misServicios h2 {
+    text-align: initial;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 20px 0 35px 0;
+  }
+  .contenedorServicio {
+    max-width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .contenedorServicio .servicio, .contenedorServicio .proyectos {
+    width: 90%;
+    height: initial;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -747,17 +757,21 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 24px;
   }
-  .contenedorServicio div h3, .proyectos h3 {
-    font-size: 28px;
+  .contenedorServicio .servicio h3, .contenedorServicio .proyectos h3 {
+    font-size: 24px;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 27px;
+    padding: 28px 0;
   }
-  .contenedorServicio div p, .proyectos p {
-    font-size: 16px;
+  .contenedorServicio .servicio p, .contenedorServicio .proyectos p {
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    width: 95%;
+    line-height: 28px;
+    width: 92%;
   }
   .proyectos {
     height: 502px;
@@ -774,6 +788,15 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .STEM {
+    height: 400px;
+    margin-top: 30px;
+  }
+  .STEM h2 {
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 48px;
   }
   .STEM iframe {
     width: 340px;

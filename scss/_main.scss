@@ -51,10 +51,11 @@
 .contenedorServicio {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
-    div {
+    .servicio {
         width: 49%;
-        @include MezclaFlex (544px , flex, column, initial, center);
+        @include MezclaFlex (544px , flex, column, initial, center);     
         padding: 1%;
         margin-bottom: 39px;
 
@@ -120,8 +121,6 @@
     text-align: center;
 
     h2 { @include MezclaLetras(37px, 600, 83px);}
-
-    p { @include MezclaLetras(24px, 400, 45px);}
 
     iframe {
         width: 560px; 
