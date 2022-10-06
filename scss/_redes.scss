@@ -149,3 +149,112 @@ footer {
 
     .derechos div a {padding-bottom: 10px;}
 }
+
+@media only screen and (max-width: 759px) {
+    // ################# Encabezado #################
+    .Encabezado {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .Navegador {
+        z-index: 2;
+        top: 0;
+        position: fixed !important;
+        background-color: rgba(255, 255, 255, 0.9);
+        ul {
+            align-items: initial;
+            padding: 24px;
+            li {padding-bottom: 16px;}
+        }
+    }
+
+    .logoCompletoH {
+        h1 {@include MezclaLetras(21px, 400, 36px);}
+        img { height: 44px;}
+    }
+
+    // ################# Presentacion #################
+    .presentacion {
+        margin-top: 72.7px;
+        height: initial;
+        div {
+            
+            img {width: 100%;}
+            @include MezclaFlex (initial , flex, column-reverse, initial, center);
+            h2 {
+                padding: 30px 0 24px 0;
+                text-align: center;
+                @include MezclaLetras(28px, 600, 38px);
+            }
+        }
+    }
+
+    // ################# CV #################
+    .CV {
+        @include MezclaFlex (558px , flex, initial, space-between, center);
+        background-image:  linear-gradient(0deg, rgba(255, 255, 255, 0.693)),url(../multimedia/orchestra1BlackCenter.png); 
+        background-position: center ;
+        background-size: cover;
+        img {display: none;}
+        p {@include MezclaLetras(16px, initial, 33px);}
+    }
+
+    .fraseInspiradora h2 { @include MezclaLetras(21px, 500, 32px); width: 90%;}
+
+    // ################# Servicios #################
+    .contenedorServicio div {
+        @include MezclaFlex (464px , flex, column, initial, center);
+    }
+
+    .contenedorServicio div h3, .proyectos h3 {
+        @include MezclaLetras(28px, 600, 38px);
+    }
+
+    .contenedorServicio div p, .proyectos p {
+        @include MezclaLetras(16px, 400, 30px);
+        width: 95%;
+    }
+
+    .proyectos {@include MezclaFlex (502px , flex, column, initial, center);}
+
+    // ################# STEM #################
+    .STEM iframe {
+        width: 340px; 
+        height: 215px;
+    }
+    
+    // ################# Redes sociales #################
+    .redesSociales {
+        font-size: 0.8em;
+        padding: 12px 0 8px 0;
+    }
+
+    .botonWhatsApp img {
+        width: 3em;
+        right: 0;
+    }
+
+    // ################# Contacto #################
+    .contacto form {
+        z-index: 1;
+        width: 81%;
+        h2 {
+            padding-top: 31px;
+            @include MezclaLetras(28px, 600, 34px);
+        }
+        p { @include MezclaLetras(24px, 400, 30px);}
+    }
+
+    // ################# Pie de Pagina #################
+    .logoCompletoF h2 {@include MezclaLetras(28px, 400, 33px);}
+    
+    .linksFooter h3 {
+        @include MezclaLetras(20px, 400, 28px);
+    }
+
+    .serviciosLinks ul li a{ 
+        padding-left: 0;
+        @include MezclaLetras (12px, 400, 23px);
+    }
+}
