@@ -593,12 +593,12 @@ footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  .contenedorServicio div h3, .proyectos h3 {
+  .contenedorServicio .servicio h3, .proyectos h3 {
     font-size: 28px;
     font-weight: 600;
     line-height: 38px;
   }
-  .contenedorServicio div p, .proyectos p {
+  .contenedorServicio .servicio p, .proyectos p {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -695,24 +695,12 @@ footer {
     line-height: 38px;
   }
   .CV {
-    height: 558px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: initial;
-    -webkit-box-direction: initial;
-        -ms-flex-direction: initial;
-            flex-direction: initial;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    height: 450px;
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.693))), url(../multimedia/orchestra1BlackCenter.png);
     background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.693)), url(../multimedia/orchestra1BlackCenter.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .CV img {
     display: none;
@@ -840,6 +828,26 @@ footer {
     font-size: 12px;
     font-weight: 400;
     line-height: 23px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  .presentacion div img {
+    width: 80%;
+    margin: auto;
+  }
+  .presentacion div h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  .CV img {
+    display: none;
+  }
+  .CV p {
+    font-size: 24px;
+    font-weight: initial;
+    line-height: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

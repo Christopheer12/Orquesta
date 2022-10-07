@@ -127,11 +127,11 @@ footer {
         @include MezclaFlex (464px , flex, column, initial, center);
     }
 
-    .contenedorServicio div h3, .proyectos h3 {
+    .contenedorServicio .servicio h3, .proyectos h3 {
         @include MezclaLetras(28px, 600, 38px);
     }
 
-    .contenedorServicio div p, .proyectos p {
+    .contenedorServicio .servicio p, .proyectos p {
         @include MezclaLetras(16px, 400, 30px);
         width: 95%;
     }
@@ -192,10 +192,11 @@ footer {
 
     // ################# CV #################
     .CV {
-        @include MezclaFlex (558px , flex, initial, space-between, center);
+        height: 450px;
         background-image:  linear-gradient(0deg, rgba(255, 255, 255, 0.693)),url(../multimedia/orchestra1BlackCenter.png); 
         background-position: center ;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         img {display: none;}
         p {@include MezclaLetras(16px, initial, 33px);}
     }
@@ -275,5 +276,17 @@ footer {
     .serviciosLinks ul li a{ 
         padding-left: 0;
         @include MezclaLetras (12px, 400, 23px);
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+    .presentacion div {
+        img {width: 80%; margin: auto;}
+        h2 {@include MezclaLetras(32px, 600, 38px);}
+    }
+    
+    .CV {
+        img {display: none;}
+        p {@include MezclaLetras(24px, initial, 30px);}
     }
 }
